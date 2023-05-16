@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <form action= "/data" method="get">
+            <select name="Quartiere" id="Quartiere">
+            {% for elemento in quartiere %}
+                <option value= '{{elemento}}'>{{elemento}}</option>
+            {% endfor %}
+            </select>
+        <input type="submit" value='invia'>
+        </form>
+</body>
+</html>
