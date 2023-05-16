@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <select name="Quartiere" id="Quartiere">
+        {% for elemento in quartieri %}
+            <option value= '{{elemento}}'>{{elemento}}</option>
+        {% endfor %}
+        </select>
+</body>
+</html>
